@@ -27,7 +27,7 @@ pub const AUTO: &str = "auto";
 /// Writing systems that need an extra font.
 #[derive(Clone, Copy, Debug, PartialEq, Eq)]
 pub enum Script {
-    /// Latin, Cyrillic or Greek: covered by the interface font.
+    /// Latin, Cyrillic, Greek or Georgian: covered by the interface fonts.
     Alphabetic,
     Cjk(CjkFont),
 }
